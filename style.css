@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav section style */
+.nav-container {
+    display: flex;
+    width: auto;
+    height: 10rem;
+
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+    width: 35%;
+    object-fit: cover;
+}
+
+.nav-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-left: 10px;
+
+}
+
+.nav-title-style {
+    color: rgb(225, 80, 170);
+}
+
+
+/* .nav-menus-container {} */
+
+.nav-icon {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+}
+
+.nav-menus-container ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-menus-container ul li {
+    list-style: none;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3C354F;
+}
+
+.nav-menus-container .nav-icon i {
+    margin-left: 15px;
+    font-size: 1.8rem;
+}
+
+/* banner section styles */
+header {
+    background-color: #FFF;
+
+}
+
+.banner-container {
+
+    padding: 0 42px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 120rem;
+    margin: 0 auto;
+
+
+}
+
+.banner-content {
+    background-image: url("images/Group\ 14.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.banner-sub-title {
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner-description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 10px 0px;
+    color: rgb(74, 69, 69);
+}
+
+.banner-icon {
+    color: rgb(225, 80, 170);
+}
+
+.banner-btn {
+    padding: 8px 13px;
+    border-radius: 15px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin: 10px 17px 0px 0px;
+
+}
+
+.btn-pink {
+    background-color: #F948B2;
+}
+
+.btn-blue {
+    background-color: #4EC5F7;
+}
+
+.banner-wallpaper {}
+
+.banner-img {
+    width: 46rem;
+    height: 46rem;
+}
+
+/* we are gamer section styles */
+.we-are-gamer-big-container {
+    background-color: rgb(255, 250, 251);
+
+}
+
+.we-are-gamer-container {
+    padding: 0 38px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.gamer-wallpaper {}
+
+.gamer-img {
+    width: 45rem;
+    height: 35rem;
+}
+
+.gamer-content {
+    width: 48rem;
+    text-align: right;
+}
+
+.gamer-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gammer-sub-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+
+}
+
+.gammer-description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(58, 54, 54);
+    margin: 15px 0px;
+}
+
+.gamer-btn {
+    padding: 8px 13px;
+    border-radius: 15px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #F948B2;
+}
+
+.gamer-sub-description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 12px 0px;
+}
+
+/* online game funny video section */
+.online-game {
+    max-width: 120rem;
+    padding: 0px 40px;
+    margin: 40px auto;
+}
+
+.online-game-content {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.online-game-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.game-title-style {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-game-description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(58, 54, 54);
+}
+
+.online-game-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+.online-game-card {
+    text-align: center;
+
+}
+
+.online-game-img {
+    width: 25rem;
+    height: 30rem;
+}
+
+.online-game-img-sub-title {}
+
+/* play instantly section styles */
+.play-instant {
+    max-width: 120rem;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10rem;
+    margin: 0 auto 90px;
+}
+
+.play-instant-content {
+    width: 34rem;
+}
+
+.play-instant-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.play-instant-title span {
+    color: #F948B2;
+}
+
+.play-instant-description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(58, 54, 54);
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container div img {
+    position: absolute;
+    top: 65%;
+    left: -30%;
+
+}
+
+.first-img {
+    width: 50rem;
+    height: 55rem;
+}
+
+.second-img {
+    width: 25rem;
+    height: 28rem;
+}
+
+/* sports section */
+.sports-big-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 35rem;
+}
+
+.sports {
+    padding: 0px 30px;
+    max-width: 120rem;
+    margin: 0 auto;
+
+
+}
+
+.sports-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.sport-option {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 10px;
+}
+
+#basketball {
+    border: 2px solid #F948B2;
+    border-radius: 48px;
+    color: #F948B2;
+
+}
+
+.sport-option:hover {
+    border: 2px solid #F948B2;
+    color: #F948B2;
+    border-radius: 48px;
+
+
+
+}
+
+.sports-img {
+    /* width: 20%; */
+}
+
+.sports-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0B0223;
+    min-height: 50vh;
+    color: white;
+
+
+
+
+}
+
+.footer-container {}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+
+    /* align-items: center; */
+}
+
+
+.footer-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.footer-title-style {
+    color: rgb(225, 80, 170);
+
+}
+
+.important-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.important-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.8rem;
+}
+
+.footer-icon i {
+    color: white;
+}
+
+.system-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.system-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    margin: 20px 0px;
+}
+
+.footer-description {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive Layout */
+/* mobile-device */
+@media screen and (max-width:426px) {
+
+    .nav-container,
+    .nav-menus-container ul,
+    .we-are-gamer-container {
+        flex-direction: column;
+    }
+
+    .nav-logo-container {
+        margin: 15px 0px;
+
+    }
+
+    .nav-container {
+        height: auto;
+    }
+
+    .nav-menus-container ul li {
+        margin: 10px 0px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        padding: 7px;
+    }
+
+    .banner-img {
+        width: 30rem;
+        height: 35rem;
+    }
+
+    .gamer-img {
+        width: 34rem;
+        height: 30rem;
+    }
+
+    .gamer-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .online-game-card-container,
+    .play-instant {
+        flex-direction: column
+    }
+
+    .online-game-img {
+        width: 100%;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .play-instant-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-container {
+        width: 45%;
+        padding: 0px 5px;
+    }
+
+    .first-img {
+        width: 25rem;
+        height: 27rem;
+    }
+
+    .second-img {
+        width: 12rem;
+        height: 14rem;
+    }
+
+    .sports-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .sports-img {
+        width: 40%;
+    }
+
+    .sports-title {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 3px;
+    }
+
+    .important-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px 6px;
+        text-align: center;
+    }
+
+    .important-links a {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 2rem;
+        gap: 10px;
+        text-align: center
+    }
+
+    .footer-logo {
+        /* text-align: center; */
+        margin-top: 10px;
+    }
+
+    .footer-description {
+        margin-bottom: 10px;
+    }
+
+}
